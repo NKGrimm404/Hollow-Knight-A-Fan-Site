@@ -1,0 +1,388 @@
+
+<html>
+    <head>
+        <title>
+           Hollow Knight: Silksong, A Fan Site
+        </title>
+
+        <script src="main.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+
+        <!--Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+        <!--Font-->
+        
+        <!--Bootstrap-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <!--Bootstrap-->
+
+        <!--p5-->
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+        <!--p5-->
+
+    
+    </head>
+    
+    <body id="silksong-body">
+        
+        <nav class="navbar-inverse my_nav_bar" >
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+            Hollow Knight: Silksong
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="nav navbar-nav">
+            <li class="links"> <a href="#silk2"> About </a> </li>
+                <li class="links"> <a href="#characters2"> Characters </a></li>
+                <li class="links"> <a href="#locations"> Locations </a> </li>
+                <li class="links"> <a href="#music"> Music </a> </li>
+                <li class="links"> <a href="#channels"> Channels </a> </li>
+                <li class="links"> <a href="#release"> Release Date </a> </li>
+            </ul>
+            <a href="index.html" id="return" class="btn btn-danger">Return</a>
+        </div>
+        </nav>
+        <br>
+        <br>
+        
+        <section id="silk2">
+    
+            <img src=logo_main.png id="logo">
+    
+    
+            
+            <div class="line"></div>
+            <br>
+            <a class="article" href="https://www.hollowknightsilksong.com/" target="_blank">
+                Hollow Knight: Silksong : Official Website
+            </a>
+            <br>
+            <br>
+            <center>
+                <button class="btn btn-danger"  data-toggle="modal" data-target="#pickle">About</button>
+            </center>
+       
+        <br>
+        <br>
+        <br>
+    </section>
+
+<!--characters-start-->
+<section id="characters2">
+            <center>
+                <p id="test">
+                    Characters
+                </p>
+                <div class="line"></div>
+            </center>
+            <div class="container" id="charactercarousel">
+    
+    
+                <div id="mycarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <center>
+    
+                                <img src="hornet2.png" class="img-responsive" id="carouselimage">
+    
+                                <div class="carousel-content">
+                                    <p>
+                                        Hornet
+                                    </p>
+                                </div>
+                            </center>
+                        </div>
+    
+    
+                        <div class="item">
+                            <center>
+    
+                                <img src="Lace.png" class="img-responsive" id="carouselimage">
+    
+                                <div class="carousel-content">
+                                    <p>
+                                        Lace
+                                    </p>
+                                </div>
+                            </center>
+                        </div>
+    
+                        <div class="item">
+                            <center>
+    
+                                <img src="Shakra.png" class="img-responsive" id="carouselimage">
+    
+                                <div class="carousel-content">
+                                    <p>
+                                        Shakra
+                                    </p>
+                                </div>
+                            </center>
+                        </div>
+    
+                        <div class="item">
+                            <center>
+    
+                                <img src="Trobbio.png" class="img-responsive" id="carouselimage">
+    
+                                <div class="carousel-content">
+                                    <p>
+                                        Trobbio
+                                    </p>
+                                </div>
+                            </center>
+                        </div>
+    
+                        <div class="item">
+                            <center>
+    
+                                <img src="Sherma.png" class="img-responsive" id="carouselimage">
+    
+                                <div class="carousel-content">
+                                    <p>
+                                        Sherma
+                                    </p>
+                                </div>
+                            </center>
+                        </div>
+    
+                        <div class="item">
+                            <center>
+    
+                                <img src="GarmondandZaza.png" class="img-responsive" id="carouselimage">
+    
+                                <div class="carousel-content">
+                                    <p>
+                                        Garmond and Zaza
+                                    </p>
+                                </div>
+                            </center>
+                        </div>
+    
+                        <div class="item">
+                            <center>
+    
+                                <img src="Forge-Daughter.webp" class="img-responsive" id="carouselimage">
+    
+                                <div class="carousel-content">
+                                    <p>
+                                        Forge-Daughter
+                                    </p>
+                                </div>
+                            </center>
+                        </div>
+
+                        <div class="item">
+                            <center>
+    
+                                <img src="Grindle.webp" class="img-responsive" id="carouselimage">
+    
+                                <div class="carousel-content">
+                                    <p>
+                                        Grindle
+                                    </p>
+                                </div>
+                            </center>
+                        </div>
+
+                        <div class="item">
+                            <center>
+    
+                                <img src="Caravan.webp" class="img-responsive" id="carouselimage">
+    
+                                <div class="carousel-content">
+                                    <p>
+                                       Flea Caravan
+                                    </p>
+                                </div>
+                            </center>
+                        </div>
+
+                        <div class="item">
+                            <center>
+    
+                                <img src="Huntress.webp" class="img-responsive" id="carouselimage">
+    
+                                <div class="carousel-content">
+                                    <p>
+                                        Huntress
+                                    </p>
+                                </div>
+                            </center>
+                        </div>
+
+                        <div class="item">
+                            <center>
+    
+                                <img src="Seth.webp" class="img-responsive" id="carouselimage">
+    
+                                <div class="carousel-content">
+                                    <p>
+                                        Seth
+                                    </p>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+    
+                    <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+    
+                    <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+    
+            </div>
+</section>
+<!--characters-end-->
+
+<br><br><br><br>
+
+<!--locations-start-->
+<section id="locations">
+    <center>
+        <p id="test">Locations</p>
+        <div class="line"></div>
+        <div id="grid2">
+            <a href="https://hollowknight.fandom.com/wiki/Category:Areas_(Silksong)" target="_blank"><img src="coral2.webp" id="location-img"></a>
+            <a href="https://hollowknight.fandom.com/wiki/Category:Areas_(Silksong)" target="_blank"><img src="coral.jpeg" id="location-img"></a>
+            <a href="https://hollowknight.fandom.com/wiki/Category:Areas_(Silksong)" target="_blank"><img src="bone.webp" id="location-img"></a>
+        </div>
+        <div id="grid2">
+            <a href="https://hollowknight.fandom.com/wiki/Moss_Grotto" target="_blank"><img src="moss-grotto.webp" id="location-img"></a>
+            <a href="https://hollowknight.fandom.com/wiki/Citadel" target="_blank"><img src="citadel.webp" id="location-img"></a>
+            <a href="https://hollowknight.fandom.com/wiki/Deep_Docks" target="_blank"><img src="Deepdocks.webp" id="location-img"></a>
+        </div>
+        <div id="grid2">
+            <a href="https://hollowknight.fandom.com/wiki/Marrow" target="_blank"><img src="marrow.webp" id="location-img"></a>
+            <a href="https://hollowknight.fandom.com/wiki/Greymoor" target="_blank"><img src="greymoor.webp" id="location-img"></a>
+            <a href="https://hollowknight.fandom.com/wiki/Category:Areas_(Silksong)" target="_blank"><img src="gilded.webp" id="location-img"></a>
+        </div>
+    </center>
+</section>
+<!--locations-end-->
+
+<br><br><br><br>
+
+<!--music-start-->
+<section id="music">
+    <center>
+        <p id="test">MUSic</p>
+        <div>
+            by Christopher Larken
+            <a href="https://christopherlarkin.bandcamp.com/album/hollow-knight-silksong-ost-sample" target="_blank"><img src="cover.jpg" id="cover"></a>
+        </div>
+        <div class="line"></div>
+        <div id="canvas"></div>
+        <br>
+        <h3 id="song_name"></h3>
+        <br>
+        <button class="btn btn-danger"  data-toggle="modal" data-target="#nuggit">Instructions</button>
+    </center>
+</section>
+<!--music-end-->
+
+<br><br><br><br>
+
+<!--channels-start-->
+<section id="channels">
+    <center>
+    <p id="test">Channels to Follow</p>
+    <div class="line"></div>
+    <br>
+    <a href="https://www.youtube.com/@mossbag69" target="_blank"><img src="mossbag.jpeg" id="Youtube"></a>
+    <p id="channel_title">mossbag</p>
+    <p id="channel_paragraph">Mossbag's channel covers all lore related content related to Hollow Knight and Hollow Knight: Silksong.</p>
+    <br>
+    <a href="https://www.youtube.com/c/dailysilksongnews" target="_blank"><img src="silksongnews.jpeg" id="Youtube"></a>
+    <p id="channel_title">Daily Silksong News</p>
+    <p id="channel_paragraph">Daily Silksong News reports every bit of news relating to Hollow Knight: Silksong. They update viewers daily wether or not there was news relating to Silksong that day.</p>
+    </center>
+</section>
+<!--channels-end--> 
+    
+<br><br><br><br>
+
+<!--Release Date-start-->
+<section id="release">
+    <center>
+    <p id="test">Release Date</p>
+    <p id="channel_title">-No Release Date Currently-</p>
+    <div class="line"></div>
+    <br>
+    <p id="channel_paragraph">While there is no release date at this time, we do know that the game is going to release by Monday, June 12, 2023.</p>
+    <br>
+    <iframe width="1200" height="600" src="https://luizfranzon.github.io/silksong-release-countdown/" frameborder="5"></iframe>
+    </center>
+</section>
+<!--Release Date-end--> 
+
+
+
+
+<div id="pickle" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+                <h3>Hollow Knight: Silksong</h3>
+            </div>
+            <div class="modal-body">
+                <center>
+                    <p>Hollow Knight: Silksong is the yet to be released sequel of Hollow Knight. You explore the kingdom of Pharloom as Hornet. She, princess-protector of Hallownest, finds herself alone in a vast, unfamiliar world.
+                        <br><br>
+                        She must battle foes, seek out allies, and solve mysteries as she ascends on a deadly pilgrimage to the kingdom’s peak.
+                        <br><br>
+                        Bound by her lineage and guided by echoes of her past, Hornet will adventure through mossy grottos, coral forests and shining citadels to unravel a deadly thread that threatens this strange new land.
+                        <br><br>
+                        Hornet must master a whole new suite of powerful moves to survive. She'll unleash devastating attacks, learn incredible silken abilities, and craft deadly tools in order to overcome the kingdom's challenges.
+                        <br><br>
+                        Over 150 all-new foes stand between Hornet and the shining citadel crowning the kingdom. Beasts and hunters, assassins and kings, monsters and knights - Hornet must face them all with bravery and skill!
+                        <br><br>
+                        The vast inter-connected world of Hollow Knight: Silksong is brought vividly to life in a traditional, hand-crafted, 2D style. Gilded cities, Lakes of fire,  and misted moors are illustrated in exquisite detail and accompanied by a vibrant orchestral score.
+                        <br><br>
+                        In her search for the truth behind her capture, Hornet will befriend surprising strangers, discover shocking secrets and solve ancient mysteries in a kingdom full of wonders.
+                    </p>
+                </center>
+            </div>
+      </div>
+    </div>
+</div>
+
+
+<div id="nuggit" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+                <h3>Hollow Knight: Silksong</h3>
+                <h4>Musical Tracks</h4>
+            </div>
+            <div class="modal-body">
+                <center>
+                    <p>Raise your right wrist infront of the screen to play Lace's Bossfight theme. Raise your left wirst infront of the screen to play the location, Bonebottom's theme.</p>
+                </center>
+            </div>
+      </div>
+    </div>
+</div>
+
+
+    </body>
+    </html>
